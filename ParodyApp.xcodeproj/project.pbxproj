@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B5164E512877952400CBB68F /* VideoPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5164E502877952400CBB68F /* VideoPlayer.swift */; };
+		B5164E532877955A00CBB68F /* VideoPlayer.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5164E522877955A00CBB68F /* VideoPlayer.xib */; };
+		B5164E552877965800CBB68F /* EditVideoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5164E542877965800CBB68F /* EditVideoViewController.swift */; };
+		B53F1B462893491500169E4D /* SimpleHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53F1B452893491500169E4D /* SimpleHomeViewController.swift */; };
+		B55C3AFF2857FD06000F3D6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3AFE2857FD06000F3D6C /* AppDelegate.swift */; };
+		B55C3B012857FD06000F3D6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B002857FD06000F3D6C /* SceneDelegate.swift */; };
+		B55C3B062857FD06000F3D6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55C3B042857FD06000F3D6C /* Main.storyboard */; };
+		B55C3B092857FD06000F3D6C /* ParodyApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B072857FD06000F3D6C /* ParodyApp.xcdatamodeld */; };
+		B55C3B0B2857FD08000F3D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B55C3B0A2857FD08000F3D6C /* Assets.xcassets */; };
+		B55C3B0E2857FD08000F3D6C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B55C3B0C2857FD08000F3D6C /* LaunchScreen.storyboard */; };
+		B55C3B1B285806CA000F3D6C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B1A285806CA000F3D6C /* HomeViewController.swift */; };
+		B55C3B1F28593AC6000F3D6C /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B1E28593AC6000F3D6C /* LoginViewController.swift */; };
+		B55C3B2128593AD3000F3D6C /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2028593AD3000F3D6C /* RegistrationViewController.swift */; };
+		B55C3B2328593B19000F3D6C /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2228593B19000F3D6C /* ComposeViewController.swift */; };
+		B55C3B2528593B23000F3D6C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2428593B23000F3D6C /* ProfileViewController.swift */; };
+		B55C3B2728593B82000F3D6C /* NotificationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2628593B82000F3D6C /* NotificationViewController.swift */; };
+		B55C3B2928593D35000F3D6C /* ExploreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2828593D35000F3D6C /* ExploreViewController.swift */; };
+		B55C3B2D28593DBD000F3D6C /* EditProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2C28593DBD000F3D6C /* EditProfileViewController.swift */; };
+		B55C3B2F28593DCC000F3D6C /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B2E28593DCC000F3D6C /* SettingsViewController.swift */; };
+		B55C3B3128593DDA000F3D6C /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3028593DDA000F3D6C /* SearchViewController.swift */; };
+		B55C3B3428593DF1000F3D6C /* RecordAudioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3328593DF1000F3D6C /* RecordAudioViewController.swift */; };
+		B55C3B3628593DFE000F3D6C /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3528593DFE000F3D6C /* ListViewController.swift */; };
+		B55C3B3828593E24000F3D6C /* SearchResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3728593E24000F3D6C /* SearchResultViewController.swift */; };
+		B55C3B3B28593E74000F3D6C /* FilmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3A28593E74000F3D6C /* FilmViewController.swift */; };
+		B55C3B3D28593EB4000F3D6C /* PublishPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3C28593EB4000F3D6C /* PublishPostViewController.swift */; };
+		B55C3B3F28594E80000F3D6C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B3E28594E80000F3D6C /* Constants.swift */; };
+		B55C3B412859AFF6000F3D6C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B55C3B402859AFF6000F3D6C /* GoogleService-Info.plist */; };
+		B55C3B45285AA1EC000F3D6C /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B44285AA1EC000F3D6C /* DatabaseManager.swift */; };
+		B55C3B47285AA2D1000F3D6C /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B46285AA2D1000F3D6C /* AuthManager.swift */; };
+		B55C3B49285AA300000F3D6C /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B55C3B48285AA300000F3D6C /* StorageManager.swift */; };
+		B56299CC2862841600405EAF /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B56299CB2862841600405EAF /* TabBarViewController.swift */; };
+		B5A1E819285D56890002F04A /* LyricCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1E817285D56890002F04A /* LyricCell.swift */; };
+		B5A1E81A285D56890002F04A /* LyricCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5A1E818285D56890002F04A /* LyricCell.xib */; };
+		B5A1E81F285FE7AA0002F04A /* Parody.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1E81E285FE7AA0002F04A /* Parody.swift */; };
+		B5A1E821285FE81E0002F04A /* OriginalSong.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A1E820285FE81E0002F04A /* OriginalSong.swift */; };
+		B5D98C05286E19A70095433A /* PreviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5D98C04286E19A70095433A /* PreviewView.swift */; };
+		FDB43AF5C1F08153CEB1C12F /* Pods_ParodyApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE9511FC4D783F119BFEAB85 /* Pods_ParodyApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1E851648678A94B4AA5878F8 /* Pods-ParodyApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParodyApp.debug.xcconfig"; path = "Target Support Files/Pods-ParodyApp/Pods-ParodyApp.debug.xcconfig"; sourceTree = "<group>"; };
+		B5164E502877952400CBB68F /* VideoPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayer.swift; sourceTree = "<group>"; };
+		B5164E522877955A00CBB68F /* VideoPlayer.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = VideoPlayer.xib; sourceTree = "<group>"; };
+		B5164E542877965800CBB68F /* EditVideoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditVideoViewController.swift; sourceTree = "<group>"; };
+		B53F1B452893491500169E4D /* SimpleHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleHomeViewController.swift; sourceTree = "<group>"; };
+		B55C3AFB2857FD06000F3D6C /* ParodyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParodyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B55C3AFE2857FD06000F3D6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B55C3B002857FD06000F3D6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B55C3B052857FD06000F3D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B55C3B082857FD06000F3D6C /* ParodyApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ParodyApp.xcdatamodel; sourceTree = "<group>"; };
+		B55C3B0A2857FD08000F3D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B55C3B0D2857FD08000F3D6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B55C3B0F2857FD08000F3D6C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B55C3B1A285806CA000F3D6C /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B55C3B1E28593AC6000F3D6C /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B55C3B2028593AD3000F3D6C /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		B55C3B2228593B19000F3D6C /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
+		B55C3B2428593B23000F3D6C /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		B55C3B2628593B82000F3D6C /* NotificationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationViewController.swift; sourceTree = "<group>"; };
+		B55C3B2828593D35000F3D6C /* ExploreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreViewController.swift; sourceTree = "<group>"; };
+		B55C3B2C28593DBD000F3D6C /* EditProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditProfileViewController.swift; sourceTree = "<group>"; };
+		B55C3B2E28593DCC000F3D6C /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		B55C3B3028593DDA000F3D6C /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		B55C3B3328593DF1000F3D6C /* RecordAudioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordAudioViewController.swift; sourceTree = "<group>"; };
+		B55C3B3528593DFE000F3D6C /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		B55C3B3728593E24000F3D6C /* SearchResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultViewController.swift; sourceTree = "<group>"; };
+		B55C3B3A28593E74000F3D6C /* FilmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmViewController.swift; sourceTree = "<group>"; };
+		B55C3B3C28593EB4000F3D6C /* PublishPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PublishPostViewController.swift; sourceTree = "<group>"; };
+		B55C3B3E28594E80000F3D6C /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ParodyApp/Resources/Constants.swift; sourceTree = SOURCE_ROOT; };
+		B55C3B402859AFF6000F3D6C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B55C3B44285AA1EC000F3D6C /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		B55C3B46285AA2D1000F3D6C /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		B55C3B48285AA300000F3D6C /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		B56299CB2862841600405EAF /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		B5A1E817285D56890002F04A /* LyricCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LyricCell.swift; sourceTree = "<group>"; };
+		B5A1E818285D56890002F04A /* LyricCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LyricCell.xib; sourceTree = "<group>"; };
+		B5A1E81E285FE7AA0002F04A /* Parody.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parody.swift; sourceTree = "<group>"; };
+		B5A1E820285FE81E0002F04A /* OriginalSong.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OriginalSong.swift; sourceTree = "<group>"; };
+		B5D98C04286E19A70095433A /* PreviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewView.swift; sourceTree = "<group>"; };
+		EDA271FDD567F7CEF4BD695E /* Pods-ParodyApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParodyApp.release.xcconfig"; path = "Target Support Files/Pods-ParodyApp/Pods-ParodyApp.release.xcconfig"; sourceTree = "<group>"; };
+		EE9511FC4D783F119BFEAB85 /* Pods_ParodyApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParodyApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B55C3AF82857FD05000F3D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDB43AF5C1F08153CEB1C12F /* Pods_ParodyApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B55C3AF22857FD05000F3D6C = {
+			isa = PBXGroup;
+			children = (
+				B55C3AFD2857FD06000F3D6C /* ParodyApp */,
+				B55C3AFC2857FD06000F3D6C /* Products */,
+				EC4F3978FD7B4539A01DA725 /* Pods */,
+				D09B662BD44A11CB6FBE0771 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B55C3AFC2857FD06000F3D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3AFB2857FD06000F3D6C /* ParodyApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B55C3AFD2857FD06000F3D6C /* ParodyApp */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B0F2857FD08000F3D6C /* Info.plist */,
+				B55C3B1C28593A11000F3D6C /* Resources */,
+				B55C3B1528580654000F3D6C /* Models */,
+				B55C3B1628580667000F3D6C /* Views */,
+				B55C3B172858066C000F3D6C /* Controllers */,
+				B55C3B072857FD06000F3D6C /* ParodyApp.xcdatamodeld */,
+			);
+			path = ParodyApp;
+			sourceTree = "<group>";
+		};
+		B55C3B1528580654000F3D6C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1E81E285FE7AA0002F04A /* Parody.swift */,
+				B5A1E820285FE81E0002F04A /* OriginalSong.swift */,
+				B5D98C04286E19A70095433A /* PreviewView.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B55C3B1628580667000F3D6C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B1D28593A3E000F3D6C /* Storyboards */,
+				B5A1E81B285D56B40002F04A /* Cells */,
+				B55C3B0A2857FD08000F3D6C /* Assets.xcassets */,
+				B5164E522877955A00CBB68F /* VideoPlayer.xib */,
+				B5164E502877952400CBB68F /* VideoPlayer.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B55C3B172858066C000F3D6C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B3928593E30000F3D6C /* Other */,
+				B55C3B2B28593D67000F3D6C /* Onboarding */,
+				B55C3B2A28593D52000F3D6C /* Core Tabs */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B55C3B1C28593A11000F3D6C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B402859AFF6000F3D6C /* GoogleService-Info.plist */,
+				B55C3B3E28594E80000F3D6C /* Constants.swift */,
+				B55C3AFE2857FD06000F3D6C /* AppDelegate.swift */,
+				B55C3B002857FD06000F3D6C /* SceneDelegate.swift */,
+				B55C3B44285AA1EC000F3D6C /* DatabaseManager.swift */,
+				B55C3B46285AA2D1000F3D6C /* AuthManager.swift */,
+				B55C3B48285AA300000F3D6C /* StorageManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B55C3B1D28593A3E000F3D6C /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B042857FD06000F3D6C /* Main.storyboard */,
+				B55C3B0C2857FD08000F3D6C /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B55C3B2A28593D52000F3D6C /* Core Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B1A285806CA000F3D6C /* HomeViewController.swift */,
+				B55C3B2228593B19000F3D6C /* ComposeViewController.swift */,
+				B55C3B2428593B23000F3D6C /* ProfileViewController.swift */,
+				B55C3B2628593B82000F3D6C /* NotificationViewController.swift */,
+				B55C3B2828593D35000F3D6C /* ExploreViewController.swift */,
+				B53F1B452893491500169E4D /* SimpleHomeViewController.swift */,
+			);
+			path = "Core Tabs";
+			sourceTree = "<group>";
+		};
+		B55C3B2B28593D67000F3D6C /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B1E28593AC6000F3D6C /* LoginViewController.swift */,
+				B55C3B2028593AD3000F3D6C /* RegistrationViewController.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B55C3B3928593E30000F3D6C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				B55C3B3728593E24000F3D6C /* SearchResultViewController.swift */,
+				B55C3B2C28593DBD000F3D6C /* EditProfileViewController.swift */,
+				B55C3B2E28593DCC000F3D6C /* SettingsViewController.swift */,
+				B55C3B3028593DDA000F3D6C /* SearchViewController.swift */,
+				B55C3B3328593DF1000F3D6C /* RecordAudioViewController.swift */,
+				B55C3B3528593DFE000F3D6C /* ListViewController.swift */,
+				B55C3B3A28593E74000F3D6C /* FilmViewController.swift */,
+				B55C3B3C28593EB4000F3D6C /* PublishPostViewController.swift */,
+				B56299CB2862841600405EAF /* TabBarViewController.swift */,
+				B5164E542877965800CBB68F /* EditVideoViewController.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		B5A1E81B285D56B40002F04A /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5A1E817285D56890002F04A /* LyricCell.swift */,
+				B5A1E818285D56890002F04A /* LyricCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		D09B662BD44A11CB6FBE0771 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE9511FC4D783F119BFEAB85 /* Pods_ParodyApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC4F3978FD7B4539A01DA725 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E851648678A94B4AA5878F8 /* Pods-ParodyApp.debug.xcconfig */,
+				EDA271FDD567F7CEF4BD695E /* Pods-ParodyApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B55C3AFA2857FD05000F3D6C /* ParodyApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B55C3B122857FD08000F3D6C /* Build configuration list for PBXNativeTarget "ParodyApp" */;
+			buildPhases = (
+				8655C75895F9859728ADAC2B /* [CP] Check Pods Manifest.lock */,
+				B55C3AF72857FD05000F3D6C /* Sources */,
+				B55C3AF82857FD05000F3D6C /* Frameworks */,
+				B55C3AF92857FD05000F3D6C /* Resources */,
+				894686CBC531562DACDDBE10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ParodyApp;
+			productName = ParodyApp;
+			productReference = B55C3AFB2857FD06000F3D6C /* ParodyApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B55C3AF32857FD05000F3D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					B55C3AFA2857FD05000F3D6C = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = B55C3AF62857FD05000F3D6C /* Build configuration list for PBXProject "ParodyApp" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B55C3AF22857FD05000F3D6C;
+			productRefGroup = B55C3AFC2857FD06000F3D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B55C3AFA2857FD05000F3D6C /* ParodyApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B55C3AF92857FD05000F3D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5164E532877955A00CBB68F /* VideoPlayer.xib in Resources */,
+				B55C3B0E2857FD08000F3D6C /* LaunchScreen.storyboard in Resources */,
+				B5A1E81A285D56890002F04A /* LyricCell.xib in Resources */,
+				B55C3B412859AFF6000F3D6C /* GoogleService-Info.plist in Resources */,
+				B55C3B0B2857FD08000F3D6C /* Assets.xcassets in Resources */,
+				B55C3B062857FD06000F3D6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8655C75895F9859728ADAC2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParodyApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		894686CBC531562DACDDBE10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParodyApp/Pods-ParodyApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParodyApp/Pods-ParodyApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParodyApp/Pods-ParodyApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B55C3AF72857FD05000F3D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5164E512877952400CBB68F /* VideoPlayer.swift in Sources */,
+				B5A1E819285D56890002F04A /* LyricCell.swift in Sources */,
+				B5A1E821285FE81E0002F04A /* OriginalSong.swift in Sources */,
+				B55C3B2D28593DBD000F3D6C /* EditProfileViewController.swift in Sources */,
+				B55C3B47285AA2D1000F3D6C /* AuthManager.swift in Sources */,
+				B55C3B3F28594E80000F3D6C /* Constants.swift in Sources */,
+				B55C3AFF2857FD06000F3D6C /* AppDelegate.swift in Sources */,
+				B55C3B3428593DF1000F3D6C /* RecordAudioViewController.swift in Sources */,
+				B5A1E81F285FE7AA0002F04A /* Parody.swift in Sources */,
+				B55C3B092857FD06000F3D6C /* ParodyApp.xcdatamodeld in Sources */,
+				B55C3B2928593D35000F3D6C /* ExploreViewController.swift in Sources */,
+				B56299CC2862841600405EAF /* TabBarViewController.swift in Sources */,
+				B5D98C05286E19A70095433A /* PreviewView.swift in Sources */,
+				B55C3B1B285806CA000F3D6C /* HomeViewController.swift in Sources */,
+				B55C3B3B28593E74000F3D6C /* FilmViewController.swift in Sources */,
+				B55C3B2128593AD3000F3D6C /* RegistrationViewController.swift in Sources */,
+				B55C3B1F28593AC6000F3D6C /* LoginViewController.swift in Sources */,
+				B55C3B3628593DFE000F3D6C /* ListViewController.swift in Sources */,
+				B55C3B3D28593EB4000F3D6C /* PublishPostViewController.swift in Sources */,
+				B55C3B49285AA300000F3D6C /* StorageManager.swift in Sources */,
+				B5164E552877965800CBB68F /* EditVideoViewController.swift in Sources */,
+				B55C3B45285AA1EC000F3D6C /* DatabaseManager.swift in Sources */,
+				B55C3B2728593B82000F3D6C /* NotificationViewController.swift in Sources */,
+				B53F1B462893491500169E4D /* SimpleHomeViewController.swift in Sources */,
+				B55C3B3128593DDA000F3D6C /* SearchViewController.swift in Sources */,
+				B55C3B012857FD06000F3D6C /* SceneDelegate.swift in Sources */,
+				B55C3B2528593B23000F3D6C /* ProfileViewController.swift in Sources */,
+				B55C3B2328593B19000F3D6C /* ComposeViewController.swift in Sources */,
+				B55C3B3828593E24000F3D6C /* SearchResultViewController.swift in Sources */,
+				B55C3B2F28593DCC000F3D6C /* SettingsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B55C3B042857FD06000F3D6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55C3B052857FD06000F3D6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B55C3B0C2857FD08000F3D6C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B55C3B0D2857FD08000F3D6C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B55C3B102857FD08000F3D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B55C3B112857FD08000F3D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B55C3B132857FD08000F3D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E851648678A94B4AA5878F8 /* Pods-ParodyApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWUCUP4498;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParodyApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Can this app use your camera?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Can this app use your microphone?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Can this app access your photo library?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawsonchen.ParodyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B55C3B142857FD08000F3D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDA271FDD567F7CEF4BD695E /* Pods-ParodyApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = LWUCUP4498;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ParodyApp/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Can this app use your camera?";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Can this app use your microphone?";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Can this app access your photo library?";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.dawsonchen.ParodyApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B55C3AF62857FD05000F3D6C /* Build configuration list for PBXProject "ParodyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C3B102857FD08000F3D6C /* Debug */,
+				B55C3B112857FD08000F3D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B55C3B122857FD08000F3D6C /* Build configuration list for PBXNativeTarget "ParodyApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B55C3B132857FD08000F3D6C /* Debug */,
+				B55C3B142857FD08000F3D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B55C3B072857FD06000F3D6C /* ParodyApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B55C3B082857FD06000F3D6C /* ParodyApp.xcdatamodel */,
+			);
+			currentVersion = B55C3B082857FD06000F3D6C /* ParodyApp.xcdatamodel */;
+			path = ParodyApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B55C3AF32857FD05000F3D6C /* Project object */;
+}

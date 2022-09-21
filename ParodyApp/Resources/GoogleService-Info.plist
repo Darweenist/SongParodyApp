@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>465405351707-8i4u1frp8bkqfu6vi1jf6t1h9hs5dvcd.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.465405351707-8i4u1frp8bkqfu6vi1jf6t1h9hs5dvcd</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCJLVffQlKhVsnoxULaELG3OR-1xi8ubEY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>465405351707</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.dawsonchen.ParodyApp</string>
+	<key>PROJECT_ID</key>
+	<string>parodyapp</string>
+	<key>STORAGE_BUCKET</key>
+	<string>parodyapp.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:465405351707:ios:a1533f3badadb4831265be</string>
+</dict>
+</plist>
